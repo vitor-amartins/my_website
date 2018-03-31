@@ -17,21 +17,27 @@ body {
         margin-top: 5px;
     }
 
-    .navbar-brand {
+    .navbar-header {
     	margin-top: 3px;
     }
 
-	.img-logo {
+	.navbar-brand>span {
 		height: 55px;
 		width: 206px;
-		display: block;
-		background: url('logo.png') no-repeat;
-		background-size: contain;
-		color: transparent;
-	}	
+		font-weight: 900;
+		font-size: 26px;
+	}
 
 	.navbar-brand {
-		padding: 0px 15px;
+		padding: 13.5px 15px 0;
+	}
+
+	.nm1 {
+		color: #FFF;
+	}
+
+	.nm2 {
+		color: #00FF00;
 	}
 	/* Botão menu xs */
 	.navbar-header button {
@@ -88,4 +94,21 @@ body {
 		margin-top: 20px;
 	}
 
-	
+	.cinto-section {
+		background-color: #000;
+		color: #00FF00;
+		margin: 30px 0;
+	}
+
+	.cinto-section h2 {
+		text-align: center;
+	}
+
+	.cinto-section .gun-text {
+		font-style: italic;
+	}
+
+	.cinto-content h3, .cinto-content h4 {
+		text-align: center;
+	}
+
