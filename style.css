@@ -1,7 +1,7 @@
 body {
-	border-top: 2px solid #00ff00;
+	border-top: 2px solid #A6E22E;
 	color: #000	;
-	background-color: #000;
+	background-color: #272822;
 	font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -37,7 +37,7 @@ body {
 	}
 
 	.nm2 {
-		color: #00FF00;
+		color: #A6E22E;
 	}
 	/* Botão menu xs */
 	.navbar-header button {
@@ -57,12 +57,12 @@ body {
 	}
 
 	.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
-		color: #00FF00;
+		color: #A6E22E;
 		background-color: transparent;
 	}
 
 	.navbar-nav>li>a:active {
-		color: #00FF00;
+		color: #A6E22E;
 		background-color: transparent;
 	}
 
@@ -96,8 +96,12 @@ body {
 
 	.cinto-section {
 		background-color: #000;
-		color: #00FF00;
-		margin: 30px 0;
+		color: #A6E22E;
+		padding: 30px 0;
+	}
+
+	.gun-text {
+		margin: 20px 0;
 	}
 
 	.cinto-section h2 {
@@ -108,7 +112,37 @@ body {
 		font-style: italic;
 	}
 
-	.cinto-content h3, .cinto-content h4 {
+	.cinto-content h3 {
 		text-align: center;
+		font-size: 17px;
+		text-transform: uppercase;
+		color: #66D9EF;
+		font-weight: 900;
 	}
+
+	.cinto-content h4 {
+		text-align: center;
+		font-size: 16px;
+		color: #F92672;
+	}
+
+	.cinto-content {
+		margin-top: 20px;
+		background-color: #272822;
+		padding-bottom: 10px;
+	}
+
+	footer {
+		padding: 30px 0 10px 0;
+	}
+
+@media screen and (max-width: 991px) {
+	.cinto-content h3 {
+		font-size: 15px;
+	}
+
+	.cinto-content h4 {
+		font-size: 14px;
+	}
+}
 
