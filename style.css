@@ -72,7 +72,7 @@ body {
 
 	.banner-section {
 		height: 200px;
-		background: url('header-bg.jpg') no-repeat;
+		background: url('images/header-bg.jpg') no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
@@ -83,7 +83,7 @@ body {
 		width: 200px;
 		height: 200px;
 		color: transparent;
-		background-image: url('me2.jpg');
+		background-image: url('images/me2.jpg');
 		background-position: center;
 		background-size: cover;
 		border-radius: 100px;
@@ -141,7 +141,6 @@ body {
 	.cinto-content h3 {
 		text-align: center;
 		font-size: 17px;
-		text-transform: uppercase;
 		color: #66D9EF;
 		font-weight: 900;
 	}
