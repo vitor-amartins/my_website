@@ -1,0 +1,91 @@
+body {
+	border-top: 2px solid #00ff00;
+	color: #000	;
+	background-color: #000;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+	.navbar-black {
+		padding: 20px 0;
+		margin-bottom: 0;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+	}
+
+    .navbar-nav {
+        margin-top: 5px;
+    }
+
+    .navbar-brand {
+    	margin-top: 3px;
+    }
+
+	.img-logo {
+		height: 55px;
+		width: 206px;
+		display: block;
+		background: url('logo.png') no-repeat;
+		background-size: contain;
+		color: transparent;
+	}	
+
+	.navbar-brand {
+		padding: 0px 15px;
+	}
+	/* Botão menu xs */
+	.navbar-header button {
+		border: 1px solid #FFF;
+	}
+
+	.icon-bar {
+		background: #FFF;
+	}
+	/* Itens menu */
+	.navbar-nav>li>a {
+		color: #FFF;
+		background-color: transparent;
+		transition: color 0.4s;
+		-webkit-transition: color 0.4s;
+		-moz-transition: color 0.4s;
+	}
+
+	.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+		color: #00FF00;
+		background-color: transparent;
+	}
+
+	.navbar-nav>li>a:active {
+		color: #00FF00;
+		background-color: transparent;
+	}
+
+	.navbar-nav>li>a>img {
+		max-height: 20px;
+	}
+
+	.banner-section {
+		height: 200px;
+		background: url('header-bg.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.sobre-section {
+		padding: 20px 0 30px 0;
+		background: #ECECEC;
+	}
+
+	.sobre-section h2 {
+		text-align: center;
+	}
+
+	.sobre-section h3 {
+		font-size: 22px;
+	}
+
+	.sobre-section .sobre-content {
+		margin-top: 20px;
+	}
+
+	
