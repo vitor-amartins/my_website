@@ -170,8 +170,11 @@ body {
 
 	footer .email {
 		color: #FFF;
+		text-align: right;
+	}
+
+	footer .midias {
 		float: right;
-		margin: 5px 30px;
 	}
 
 	footer .navbar-brand {
@@ -185,6 +188,17 @@ body {
 
 	.cinto-content h4 {
 		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.thing-content {
+		float: none;
+		margin: 0 auto;
+	}
+	footer .navbar-brand, footer .midias, footer .email {
+		float: none;
+		margin: 0 auto;
 	}
 }
 
