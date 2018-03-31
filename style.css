@@ -188,16 +188,29 @@ body {
 	.cinto-content h4 {
 		font-size: 14px;
 	}
+	
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	footer .navbar-brand {
+		font-size: 18px;
+		padding-right: 0;
+	}
+}
+
 
 @media screen and (max-width: 767px) {
 	.thing-content {
 		float: none;
 		margin: 0 auto;
 	}
-	footer .navbar-brand, footer .midias, footer .email {
+	footer .logo-ft, footer .midias {
+		text-align: center;
 		float: none;
 		margin: 0 auto;
+	}
+	footer .email {
+		text-align: center;
 	}
 }
 
