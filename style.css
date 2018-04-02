@@ -151,6 +151,10 @@ body {
 		color: #F92672;
 	}
 
+	.cinto-content a {
+		text-decoration: none;
+	}
+
 	.cinto-content {
 		margin-top: 20px;
 		background-color: #272822;
