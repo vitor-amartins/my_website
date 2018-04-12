@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30px"
+   height="30px"
+   viewBox="0 0 30 30"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"
+   sodipodi:docname="next.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.5333333"
+     inkscape:cx="15"
+     inkscape:cy="15"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs2105" />
+  <metadata
+     id="metadata2108">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Camada 1">
+    <g
+       id="g3270"
+       transform="translate(0.82031263)">
+      <text
+         id="text31"
+         y="12.541264"
+         x="17.685028"
+         style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#66daef;fill-opacity:0.94117647;stroke:none;stroke-width:0.33333331"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';fill:#66daef;fill-opacity:0.94117647;stroke-width:0.33333331"
+           y="12.541264"
+           x="17.685028"
+           id="tspan29"
+           sodipodi:role="line">E</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#66daef;fill-opacity:0.94117647;stroke:none;stroke-width:0.33333331"
+         x="2.3943081"
+         y="27.458679"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan33"
+           x="2.3943081"
+           y="27.458679"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';fill:#66daef;fill-opacity:0.94117647;stroke-width:0.33333331">X</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#66d9ef;fill-opacity:0.94117647;stroke:none;stroke-width:0.33333331"
+         x="1.8876104"
+         y="12.689075"
+         id="text4605"><tspan
+           sodipodi:role="line"
+           id="tspan4603"
+           x="1.8876104"
+           y="12.689075"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';opacity:1;fill:#66d9ef;fill-opacity:0.94117647;stroke-width:0.33333331">N</tspan></text>
+      <text
+         id="text4609"
+         y="27.458736"
+         x="18.045067"
+         style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#66d9ef;fill-opacity:0.94117647;stroke:none;stroke-width:0.33333331"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';opacity:1;fill:#66d9ef;fill-opacity:0.94117647;stroke-width:0.33333331"
+           y="27.458736"
+           x="18.045067"
+           id="tspan4607"
+           sodipodi:role="line">T</tspan></text>
+    </g>
+  </g>
+</svg>

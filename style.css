@@ -161,6 +161,45 @@ body {
 		padding-bottom: 10px;
 	}
 
+	.conhecimentos {
+		padding: 30px 0;
+		background: #1b1c17;
+	}
+
+	.conhecimentos h2 {
+		text-align: center;
+		color: #A6E22E;
+		margin-bottom: 30px;
+	}
+
+	.conhecimentos .item {
+		margin: 10px 0;
+	}
+
+	.conhecimentos .item img {
+		max-width: 30px;
+		float: left;
+		margin-right: 15px;
+	}
+
+	.conhecimentos p {
+		color: #FFF;
+		font-weight: 900;
+		font-size: 1.5em;
+	}
+
+	.conhecimentos .item .to-do {
+		border: solid 3px #FFF;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: left;
+		margin-right: 15px;
+	}
+
 	footer {
 		padding: 50px 0 10px 0;
 	}
@@ -207,6 +246,13 @@ body {
 	.thing-content {
 		float: none;
 		margin: 0 auto;
+	}
+	.conhecimentos p {
+		padding-top: 5px;
+		font-size: 1em;
+	}
+	.conhecimentos .item img {
+		margin-right: 10px;
 	}
 	footer .logo-ft, footer .midias {
 		text-align: center;
