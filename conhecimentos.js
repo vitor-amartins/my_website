@@ -3,55 +3,35 @@ learning = ['Haskell', 'JavaScript', 'PHP', 'SQL', 'JQuery', 'D3'];
 next = ['AJAX'];
 want = ['React', 'NodeJS', 'NPM', 'Elixir', 'Ruby'];
 
+function makeTemplate(status, item) {
+    var newDiv = document.createElement("div");
+    newDiv.className = "item col-xs-6 col-md-4";
+    var img = document.createElement("img");
+    img.src = "images/" + status + ".svg";
+    var p = document.createElement("p");
+    p.innerHTML = item;
+    newDiv.appendChild(img);
+    newDiv.appendChild(p);
+    return newDiv;
+}
+
 $(document).ready(function() {
 
     var list_items = document.getElementById("list_items");
 
-    for (var i = 0; i < known.length; i++) {
-        var div = document.createElement("div");
-        div.className = "item col-xs-6 col-md-4";
-        var img = document.createElement("img");
-        img.src = "images/checked.svg";
-        var p = document.createElement("p");
-        p.innerHTML = known[i];
-        div.appendChild(img);
-        div.appendChild(p);
-        list_items.appendChild(div);
+    for (i in known) {
+        list_items.appendChild(makeTemplate('known', known[i]));
     }
 
-    for (var i = 0; i < learning.length; i++) {
-        var div = document.createElement("div");
-        div.className = "item col-xs-6 col-md-4";
-        var img = document.createElement("img");
-        img.src = "images/hourglass.svg";
-        var p = document.createElement("p");
-        p.innerHTML = learning[i];
-        div.appendChild(img);
-        div.appendChild(p);
-        list_items.appendChild(div);
+    for (i in learning) {
+        list_items.appendChild(makeTemplate('learning', learning[i]));
     }
 
-    for (var i = 0; i < next.length; i++) {
-        var div = document.createElement("div");
-        div.className = "item col-xs-6 col-md-4";
-        var img = document.createElement("img");
-        img.src = "images/next.svg";
-        var p = document.createElement("p");
-        p.innerHTML = next[i];
-        div.appendChild(img);
-        div.appendChild(p);
-        list_items.appendChild(div);
+    for (i in next) {
+        list_items.appendChild(makeTemplate('next', next[i]));
     }
 
-    for (var i = 0; i < want.length; i++) {
-        var div = document.createElement("div");
-        div.className = "item col-xs-6 col-md-4";
-        var img = document.createElement("img");
-        img.src = "images/want.svg";
-        var p = document.createElement("p");
-        p.innerHTML = want[i];
-        div.appendChild(img);
-        div.appendChild(p);
-        list_items.appendChild(div);
+    for (i in want) {
+        list_items.appendChild(makeTemplate('want', want[i]));
     }
 });
