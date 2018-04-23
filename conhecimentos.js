@@ -1,7 +1,11 @@
-known = ['C/C++', 'Java (Android)', 'Swift', 'Python', 'HTML/CSS'];
-learning = ['Haskell', 'JavaScript', 'PHP', 'SQL', 'JQuery', 'D3'];
-next = ['AJAX'];
-want = ['React', 'NodeJS', 'NPM', 'Elixir', 'Ruby'];
+var p_status = new Array();
+p_status = ['known', 'learning', 'next', 'want'];
+
+var knowledges = new Array();
+knowledges['known'] = ['C/C++', 'Java (Android)', 'Swift', 'Python', 'HTML/CSS'];
+knowledges['learning'] = ['Haskell', 'JavaScript', 'PHP', 'SQL', 'JQuery', 'D3'];
+knowledges['next'] = ['AJAX'];
+knowledges['want'] = ['React', 'NodeJS', 'NPM', 'Elixir', 'Ruby'];
 
 function makeTemplate(status, item) {
     var newDiv = document.createElement("div");
@@ -15,23 +19,15 @@ function makeTemplate(status, item) {
     return newDiv;
 }
 
-$(document).ready(function() {
+function addTemplates(obj, status, arr) {
+    for (i in arr[status]) {
+        obj.appendChild(makeTemplate(status, arr[status][i]));
+    }
+}
 
+document.addEventListener("DOMContentLoaded", function() {
     var list_items = document.getElementById("list_items");
-
-    for (i in known) {
-        list_items.appendChild(makeTemplate('known', known[i]));
-    }
-
-    for (i in learning) {
-        list_items.appendChild(makeTemplate('learning', learning[i]));
-    }
-
-    for (i in next) {
-        list_items.appendChild(makeTemplate('next', next[i]));
-    }
-
-    for (i in want) {
-        list_items.appendChild(makeTemplate('want', want[i]));
+    for (i in p_status) {
+        addTemplates(list_items, p_status[i], knowledges);
     }
 });
