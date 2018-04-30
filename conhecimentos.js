@@ -2,10 +2,10 @@ var p_status = new Array();
 p_status = ['known', 'learning', 'next', 'want'];
 
 var knowledges = new Array();
-knowledges['known'] = ['C/C++', 'Java (Android)', 'Swift', 'Python', 'HTML/CSS'];
-knowledges['learning'] = ['Haskell', 'JavaScript', 'PHP', 'SQL', 'JQuery', 'D3'];
-knowledges['next'] = ['AJAX'];
-knowledges['want'] = ['React', 'NodeJS', 'NPM', 'Elixir', 'Ruby'];
+knowledges['known'] = ['C/C++', 'Java (Android)', 'Swift', 'Python', 'HTML/CSS', 'Haskell'];
+knowledges['learning'] = ['JavaScript', 'PHP', 'SQL', 'JQuery', 'AJAX', 'D3'];
+knowledges['next'] = ['NodeJS'];
+knowledges['want'] = ['React', 'NPM', 'Elixir', 'Ruby'];
 
 function makeTemplate(status, item) {
     var newDiv = document.createElement("div");
